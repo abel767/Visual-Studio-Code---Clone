@@ -15,7 +15,9 @@
   *::after {
     box-sizing: border-box;
   }
-  
+  i{
+    cursor: pointer;
+  }
   /*
     Remove list styles (bullets/numbers)
     in case you use it with normalize.css

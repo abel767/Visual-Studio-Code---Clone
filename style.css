@@ -62,6 +62,16 @@ header{
 margin-left: auto;
 }
 
+.light i{
+    position: absolute;
+    cursor: pointer;
+    
+}
+
+.light:hover i{
+    background: #95a3b2;
+}
+
 .nav h4{
      margin-right:1.5em;
      font-size: 18px;
@@ -87,7 +97,7 @@ margin-left: auto;
 #search-icon{
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 30px;
     color: #95a3b2;
     pointer-events: none;
     transform: rotate(90deg);
